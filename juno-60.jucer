@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<JUCERPROJECT id="gfWvfh" name="junoSynth" projectType="audioplug" pluginFormats="buildAU,buildStandalone,buildVST,buildVST3"
+<JUCERPROJECT id="gfWvfh" name="Juno-60" projectType="audioplug" pluginFormats="buildAU,buildStandalone,buildVST,buildVST3"
               pluginCharacteristicsValue="pluginIsSynth,pluginWantsMidiIn"
-              companyName="mus3329X" headerPath="../../../../lib/" displaySplashScreen="1"
-              jucerFormatVersion="1">
-  <MAINGROUP id="YTLMkW" name="junoSynth">
+              displaySplashScreen="1" jucerFormatVersion="1" headerPath="../lib/">
+  <MAINGROUP id="YTLMkW" name="Juno-60">
     <GROUP id="{F09208EB-A4D7-1573-A46F-390CC30C2B3A}" name="Source">
-      <FILE id="BOdhSh" name="junoDCO.c" compile="1" resource="0" file="../../lib/junoDCO.c"/>
-      <FILE id="BshMvZ" name="junoDCO.h" compile="0" resource="0" file="../../lib/junoDCO.h"/>
-      <FILE id="Y67oKd" name="moog.c" compile="1" resource="0" file="../../lib/moog.c"/>
-      <FILE id="EMAozy" name="moog.h" compile="0" resource="0" file="../../lib/moog.h"/>
-      <FILE id="jQSWpw" name="utils.c" compile="1" resource="0" file="../../lib/utils.c"/>
-      <FILE id="BmnSw9" name="utils.h" compile="0" resource="0" file="../../lib/utils.h"/>
-      <FILE id="iotx4n" name="noise.c" compile="1" resource="0" file="../../lib/noise.c"/>
-      <FILE id="waguVT" name="noise.h" compile="0" resource="0" file="../../lib/noise.h"/>
-      <FILE id="xNpMaa" name="phasor.c" compile="1" resource="0" file="../../lib/phasor.c"/>
-      <FILE id="NodNxM" name="phasor.h" compile="0" resource="0" file="../../lib/phasor.h"/>
+      <FILE id="t8KgT6" name="noise.c" compile="1" resource="0" file="lib/noise.c"/>
+      <FILE id="lyA40Q" name="noise.h" compile="0" resource="0" file="lib/noise.h"/>
+      <FILE id="REZrTs" name="phasor.c" compile="1" resource="0" file="lib/phasor.c"/>
+      <FILE id="l8dEvw" name="phasor.h" compile="0" resource="0" file="lib/phasor.h"/>
+      <FILE id="Zjfc1j" name="junoDCO.c" compile="1" resource="0" file="lib/junoDCO.c"/>
+      <FILE id="du5HYc" name="junoDCO.h" compile="0" resource="0" file="lib/junoDCO.h"/>
+      <FILE id="TZ1Xyg" name="moog.c" compile="1" resource="0" file="lib/moog.c"/>
+      <FILE id="jPN1GD" name="moog.h" compile="0" resource="0" file="lib/moog.h"/>
+      <FILE id="XTqdrL" name="utils.c" compile="1" resource="0" file="lib/utils.c"/>
+      <FILE id="DqYKUU" name="utils.h" compile="0" resource="0" file="lib/utils.h"/>
       <FILE id="VuWxpC" name="CustomLookAndFeel.h" compile="0" resource="0"
             file="Source/CustomLookAndFeel.h"/>
       <FILE id="XsndUh" name="PluginProcessor.cpp" compile="1" resource="0"

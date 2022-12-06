@@ -48,8 +48,8 @@
 #if ! JUCE_DONT_DECLARE_PROJECTINFO
 namespace ProjectInfo
 {
-    const char* const  projectName    = "junoSynth";
-    const char* const  companyName    = "mus3329X";
+    const char* const  projectName    = "Juno-60";
+    const char* const  companyName    = "";
     const char* const  versionString  = "1.0.0";
     const int          versionNumber  = 0x10000;
 }

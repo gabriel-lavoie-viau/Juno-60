@@ -12,8 +12,8 @@
 
 #include <JuceHeader.h>
 //#include "junoLFO.h"
-#include "junoDCO.h"
-#include "moog.h"
+#include "../lib/junoDCO.h"
+#include "../lib/moog.h"
 
 //==============================================================================
 struct JunoSynthSound   : public SynthesiserSound
